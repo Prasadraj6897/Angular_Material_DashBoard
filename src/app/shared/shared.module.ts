@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { MatDividerModule} from '@angular/material/divider';
 
 
 @NgModule({
@@ -13,12 +13,14 @@ import { FooterComponent } from './components/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatDividerModule
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
+    
   ]
 })
 export class SharedModule { }
