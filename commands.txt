@@ -8,3 +8,9 @@ npm i -s @angular/flex-layout @angular/cdk --save
 
  ng g c layouts/default
  ng g m layouts/default
+
+ ng g c shared/components/header
+ ng g c shared/components/footer
+ ng g c shared/components/sidebar
+
+ ng g m shared
