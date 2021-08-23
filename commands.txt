@@ -5,3 +5,6 @@ npm i hammerjs
 npm i highcharts-angular --save
 npm i highcharts --save
 npm i -s @angular/flex-layout @angular/cdk --save
+
+ ng g c layouts/default
+ ng g m layouts/default
