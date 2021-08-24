@@ -19,7 +19,7 @@ export class PostsComponent implements OnInit {
 
   dataSource!: MatTableDataSource<IPost>
   posts!:IPost[];
-  columns: string[] = ['id', 'author', 'title', 'category', 'date']
+  columns: string[] = ['id', 'author', 'title', 'category', 'date', 'actions']
 
   @ViewChild(MatSort, {static:true}) sort!: MatSort;
   @ViewChild(MatPaginator, {static:true}) paginator!: MatPaginator;

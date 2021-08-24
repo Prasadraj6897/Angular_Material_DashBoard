@@ -19,3 +19,25 @@ npm i -s @angular/flex-layout @angular/cdk --save
 
  overflow : hiiden for card goes beyond border and card needs to dispaly incorrect order
  
+
+if json data comes from backend express server use below
+ npm i axios
+
+ ng g s modules/posts
+    it creates service posts.service, inside that
+
+    import axios from axios
+
+    getPosts(){
+       return axios.get("http://localohost:3000/posts")
+    }
+
+in default module add PostService inside Providers section below
+
+in posts.comp Add constructor(private postsService : PostsService)
+
+inside ngOnint ata same file
+below thaer this.postsService.getPost().then(response => {
+    this.posts = response.data
+})
+    

@@ -17,6 +17,10 @@ import { MatSortModule} from '@angular/material/sort';
 import { MatInputModule} from '@angular/material/input';
 import { MatFormFieldModule} from '@angular/material/form-field';
 
+import { MatButtonModule} from '@angular/material/button';
+import { MatIconModule} from '@angular/material/icon';
+import { MatMenuModule} from '@angular/material/menu';
+
     
 @NgModule({
   declarations: [
@@ -36,7 +40,10 @@ import { MatFormFieldModule} from '@angular/material/form-field';
     MatTableModule,
     MatSortModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatButtonModule,
+    MatIconModule,
+    MatMenuModule
   ],
   providers:[
     DashboardService
