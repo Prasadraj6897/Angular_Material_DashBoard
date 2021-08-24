@@ -14,3 +14,5 @@ npm i -s @angular/flex-layout @angular/cdk --save
  ng g c shared/components/sidebar
 
  ng g m shared
+
+ ng g s modules/dashboard
