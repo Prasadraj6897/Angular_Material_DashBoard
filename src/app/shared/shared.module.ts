@@ -34,12 +34,14 @@ import { CardComponent } from './widgets/card/card.component';
     MatListModule,
     RouterModule,
     HighchartsChartModule
+    
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    AreaComponent
+    AreaComponent,
+    CardComponent
   ]
 })
 export class SharedModule { }
