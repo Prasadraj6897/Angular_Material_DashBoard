@@ -12,13 +12,17 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { DashboardService } from 'src/app/modules/dashboard.service';
 import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableModule} from '@angular/material/table';
+import { MatSortModule} from '@angular/material/sort';
+
+import { MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule} from '@angular/material/form-field';
 
     
 @NgModule({
   declarations: [
     DefaultComponent,
     DashboardComponent,
-    PostsComponent
+    PostsComponent,
   ],
   imports: [
     CommonModule,
@@ -29,7 +33,10 @@ import { MatTableModule} from '@angular/material/table';
     MatCardModule,
     FlexLayoutModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatSortModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers:[
     DashboardService
