@@ -16,3 +16,6 @@ npm i -s @angular/flex-layout @angular/cdk --save
  ng g m shared
 
  ng g s modules/dashboard
+
+ overflow : hiiden for card goes beyond border and card needs to dispaly incorrect order
+ 
